@@ -1,6 +1,23 @@
 // src/components/Portfolio/Portfolio.js
 import React from 'react';
+import styled from 'styled-components';
+import  theme  from '../../theme'
 import Project from './Project';
+
+// Define a styled component for the main container
+const PortfolioContainer = styled.section`
+background-color: ${theme.colors.secondary};
+padding: 20px;
+text-align: center;
+`;
+
+// Define a styled component for the section title
+const SectionTitle = styled.h2`
+font-family: ${theme.fonts.heading};
+font-size: 24px;
+color: ${theme.colors.primary};
+margin-bottom: 20px;
+`;
 
 const Portfolio = () => {
     const projects = [
@@ -20,8 +37,8 @@ const Portfolio = () => {
     ];
 
     return (
-    <section>
-        <h2>Portfolio</h2>
+        <PortfolioContainer>
+        <SectionTitle>Portfolio</SectionTitle>
         <div className="project-list">
             {projects.map((project, index) => (
                 <Project
@@ -33,7 +50,7 @@ const Portfolio = () => {
                 />
             ))}
         </div>
-    </section>
+        </PortfolioContainer>
     );
 };
 

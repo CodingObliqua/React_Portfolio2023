@@ -1,17 +1,24 @@
 // src/components/AboutMe/AboutMe.js
 import React from 'react';
+import styled from 'styled-components';
 
-const AboutMe = () => {
+const AboutMeContainer = styled.div`
+    background-color: ${({ theme }) => theme.colors.primary};
+    color:white;
+    padding: 20px;
+    `;
+const Heading = styled.h2`
+    font-family: ${({ theme }) => theme.fonts.heading};
+    font-size: 24px;
+    `;    
+
+function AboutMe () {
     return (
-        <section>
-            <h2> About Me</h2>
-            <img src="/assets/images/pictureofme.jpeg" alt="photo of me" />
-            <p>
-                wabble de dabble de 
-                
-            </p>
-        </section>
+        <AboutMeContainer>
+            <Heading>About Me</Heading>
+            {/* */}
+        </AboutMeContainer>
     );
-};
+}
 
 export default AboutMe;
