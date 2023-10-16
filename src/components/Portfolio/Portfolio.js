@@ -9,6 +9,7 @@ const PortfolioContainer = styled.section`
 background-color: ${theme.colors.secondary};
 padding: 20px;
 text-align: center;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 `;
 
 // Define a styled component for the section title
@@ -33,6 +34,26 @@ const Portfolio = () => {
             deployedLink: "https://codingobliqua.github.io/BerkeleyRacingClub/",
             githubLink: "https://github.com/CodingObliqua/BerkeleyRacingClub",
         },
+        {
+            title: "Project 2",
+            description: "Created a project to utilized CRUD routes and Login Authorization ",
+            deployedLink: "https://horse-creator-app-9839a5a7a948.herokuapp.com/",
+            githubLink: "https://github.com/CodingObliqua/Horse_creator",
+        },
+        {
+            title: "React Portfolio",
+            description: "Developed a portfolio utilizing React ",
+            deployedLink: "https://codingobliqua.github.io/React_Portfolio2023/",
+            githubLink: "https://github.com/CodingObliqua/React_Portfolio2023",
+        },
+        {
+            title: "Project 3",
+            description: "Developed an Art gallery app using MERN stack ",
+            deployedLink: "https://codingobliqua.github.io/BerkeleyRacingClub/",
+            githubLink: "https://github.com/CodingObliqua/BerkeleyRacingClub",
+        },
+
+
 
     ];
 
