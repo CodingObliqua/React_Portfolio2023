@@ -15,7 +15,7 @@ const Title = styled.h3`
 color: #007bfg;
 `;
 const Description = styled.p`
-fonst-style: italic; // Italic text
+font-style: italic; // Italic text
 `;
 const Link = styled.a`
 text-decoration: none; // remove underlines from links
