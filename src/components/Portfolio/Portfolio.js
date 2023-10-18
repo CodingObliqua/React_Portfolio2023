@@ -47,6 +47,12 @@ const Portfolio = () => {
             githubLink: "https://github.com/CodingObliqua/React_Portfolio2023",
         },
         {
+            title: "Timed Quiz (HTML,CSS,JS)",
+            description: "Developed an Art gallery app using MERN stack ",
+            deployedLink: "https://codingobliqua.github.io/fuzzy-winner/",
+            githubLink: "https://github.com/CodingObliqua/fuzzy-winner",
+        },
+        {
             title: "Project 3",
             description: "Developed an Art gallery app using MERN stack ",
             deployedLink: "https://codingobliqua.github.io/BerkeleyRacingClub/",
