@@ -1,5 +1,6 @@
 // src/components/Contact/Contact.js
 import React, { useState } from 'react';
+// import './contact.css';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -23,15 +24,18 @@ const Contact = () => {
     const validateForm = () => {
         const newErrors = {};
         if (!formData.name.trim()) {
-            newErrors.name = 'Name is required';
+          newErrors.name = 'Name is required';
         }
         if (!formData.email.trim()) {
-            newErrors.email = 'Email is required';
-        } else if (!/^\S+@\S+$/.test(formData.email)) {
-            newErrors.message = 'Message is required';
+          newErrors.email = 'Email is required';
+        } else if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
+          newErrors.email = 'Invalid email format';
+        }
+        if (!formData.message.trim()) {
+          newErrors.message = 'Message is required';
         }
         return newErrors;
-    };
+      };
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -54,7 +58,7 @@ const Contact = () => {
     };
 
     return (
-        <section>
+        <section className="contact-container">
             <h2>Contact</h2>
             {isSubmitted ? (
                 <p>Thank you for your message! I'll get back to you soon! </p>
