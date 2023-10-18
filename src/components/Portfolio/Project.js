@@ -23,10 +23,11 @@ margin-right: 10px; // Add spacing between links
 color: #e10404; // Custom link color
 `;
 
-const Project = ({ title, description, deployedLink, githubLink }) => {
+const Project = ({ title, description, deployedLink, githubLink, imageSrc }) => {
     return (
       <ProjectContainer>
         <Title>{title}</Title>
+        <img src={imageSrc} alt={title} />
         <Description>{description}</Description>
         <Link href={deployedLink} target="_blank" rel="noopener noreferrer">
           Deployed Link
