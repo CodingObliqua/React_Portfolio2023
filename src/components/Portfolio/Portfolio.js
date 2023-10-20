@@ -70,8 +70,8 @@ const Portfolio = () => {
         {
             title: "Project 3",
             description: "Developed an Art gallery app using MERN stack ",
-            deployedLink: "https://codingobliqua.github.io/BerkeleyRacingClub/",
-            githubLink: "https://github.com/CodingObliqua/BerkeleyRacingClub",
+            deployedLink: "https://museum-gallery-d60bff79cfff.herokuapp.com/",
+            githubLink: "https://github.com/CodingObliqua/project_ArtHub",
             imageSrc: require("../../assets/fish.jpg"),
         },
 
