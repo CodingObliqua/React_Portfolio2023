@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio2023/static/css/main.dc7bc1d8.css",
+    "main.js": "/React_Portfolio2023/static/js/main.67f41148.js",
+    "static/js/787.000e7e3b.chunk.js": "/React_Portfolio2023/static/js/787.000e7e3b.chunk.js",
+    "static/media/picture_of_me.JPG": "/React_Portfolio2023/static/media/picture_of_me.b8e9e7f4ea9f8acce994.JPG",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/React_Portfolio2023/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/React_Portfolio2023/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/React_Portfolio2023/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/html_port.JPG": "/React_Portfolio2023/static/media/html_port.b9bf959ded2277a52b58.JPG",
+    "static/media/fish.jpg": "/React_Portfolio2023/static/media/fish.9a9f2967d1f61a8b83bb.jpg",
+    "static/media/horse_creat.JPG": "/React_Portfolio2023/static/media/horse_creat.bdf7d6678e240b54df4b.JPG",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/React_Portfolio2023/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/React_Portfolio2023/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/berkeley_racing.JPG": "/React_Portfolio2023/static/media/berkeley_racing.651999b1a3ec12ab1b9c.JPG",
+    "static/media/react_port.JPG": "/React_Portfolio2023/static/media/react_port.6b6d9c1f8397f3324914.JPG",
+    "static/media/js_quiz.JPG": "/React_Portfolio2023/static/media/js_quiz.860253ea68e8245dadf2.JPG",
+    "index.html": "/React_Portfolio2023/index.html",
+    "main.dc7bc1d8.css.map": "/React_Portfolio2023/static/css/main.dc7bc1d8.css.map",
+    "main.67f41148.js.map": "/React_Portfolio2023/static/js/main.67f41148.js.map",
+    "787.000e7e3b.chunk.js.map": "/React_Portfolio2023/static/js/787.000e7e3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc7bc1d8.css",
+    "static/js/main.67f41148.js"
+  ]
+}
